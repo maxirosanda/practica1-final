@@ -26,15 +26,80 @@
   padding-bottom: 10px;
 }
 
-.subtitulo {
-  color: #585757;
-  margin: 0 auto 40px;
-  border-bottom: 2px solid #ed6f17;
-  padding-bottom: 10px;
-  font-size: 24px;
-  text-transform: uppercase;
-  font-weight: 600;
-  text-align: center;
+.masVendido {
+  width: 280px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+.masVendido .foto {
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.masVendido .foto .oferta {
+  position: absolute;
+  bottom: 0;
+  background-color: #ed6f17;
+  padding: 5px;
+}
+
+.masVendido .foto .oferta p {
+  color: white;
+  margin: 0;
+}
+
+.masVendido .contenido {
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  height: 259px;
+}
+
+.masVendido .contenido .estrellas i {
+  color: #e7bc3d;
+}
+
+.masVendido:hover .backgroundEffect {
+  border-radius: 10px;
+  bottom: 0;
+  height: 350px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  background: #2D10DE;
+  animation: popBackground 0.3s ease-in;
+}
+
+.masVendido:hover .text-muted {
+  color: white !important;
+}
+
+@keyframes popBackground {
+  0% {
+    height: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  50% {
+    height: 80px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  75% {
+    height: 160px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  100% {
+    height: 350px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
 }
 
 @media (max-width: 1200px) {
