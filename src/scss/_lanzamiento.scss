@@ -1,0 +1,23 @@
+.lanzamiento{
+    position: relative;
+   .contenido{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        h3{
+            color: $colorPrimario;
+            font-size: 88px;
+            font-weight: 800;
+        }
+        .btn{
+            font-size: 32px;
+            font-weight: 800;
+            color: white;
+            border: 4px solid #fff;
+            border-radius: 5px;
+        
+        }
+   }
+   
+}

@@ -102,6 +102,31 @@
   }
 }
 
+.lanzamiento {
+  position: relative;
+}
+
+.lanzamiento .contenido {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.lanzamiento .contenido h3 {
+  color: #ed6f17;
+  font-size: 88px;
+  font-weight: 800;
+}
+
+.lanzamiento .contenido .btn {
+  font-size: 32px;
+  font-weight: 800;
+  color: white;
+  border: 4px solid #fff;
+  border-radius: 5px;
+}
+
 @media (max-width: 1200px) {
   .presentacion-texto h1 {
     font-size: 66px;
