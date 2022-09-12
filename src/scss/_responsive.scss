@@ -8,6 +8,29 @@
     }
 }
 
+@media(max-width:992px){
+
+    .lanzamiento{
+
+       .contenido{
+
+            h3{
+
+                font-size: 66px;
+                
+            }
+            .btn{
+                font-size: 24px;
+            
+            }
+           
+       }
+       
+    }
+    
+
+}
+
 @media(max-width:768px){
 
     .presentacion-texto {
@@ -16,6 +39,20 @@
             font-size: 44px;
         }
     }
+
+    .lanzamiento{
+
+        .contenido{
+ 
+             h3{
+ 
+                 font-size: 48px;
+                 
+             }
+            
+        }
+        
+     }
 }
 
 
@@ -42,4 +79,25 @@
         color: $colorTexto;
     }
 }
+
+.lanzamiento{
+
+    .contenido{
+
+         h3{
+
+             font-size: 36px;
+             
+         }
+
+         .btn{
+            font-size: 16px;
+        
+        }
+        
+    }
+    
+ }
+
+
 }
