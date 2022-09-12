@@ -216,13 +216,14 @@
 .newsletter .newsletter-input {
   position: relative;
   width: 90%;
+  height: 70px;
   margin: auto;
 }
 
 .newsletter input {
   position: absolute;
   width: 100%;
-  right: 10px;
+  right: 0px;
   border: solid 2px #ed6f17;
   border-radius: 10px;
   outline: none;
@@ -233,7 +234,7 @@
 .newsletter button {
   position: absolute;
   right: 15px;
-  top: 6px;
+  top: 3px;
   height: 40px;
   width: 40px;
   font-size: 16px;
@@ -317,5 +318,10 @@
 
 .container-fluid {
   padding: 0;
+}
+
+footer {
+  height: 500px;
+  background-color: aqua;
 }
 /*# sourceMappingURL=style.css.map */
