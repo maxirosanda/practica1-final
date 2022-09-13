@@ -1,0 +1,23 @@
+.filtros{
+    input[type="checked"]{
+        width: 100px;
+    }
+    .btn{
+            background-color: $colorPrimario;
+            color: white;
+            &:hover{
+                background-color: $colorPrimario;
+                color: white;
+        }
+    }
+    .maxMin{
+        input{
+            width: 80px;
+        }
+    }
+    .anio{
+        input{
+            width: 80px;
+        }
+    }
+}

@@ -76,18 +76,18 @@
   text-align: center;
 }
 
-.masVedidos {
+.tarjetas {
   margin-top: 30px;
 }
 
-.masVedidos h2 {
+.tarjetas h2 {
   width: auto;
   text-align: center;
   border-bottom: 3px solid #e7bc3d;
   padding-bottom: 10px;
 }
 
-.masVendido {
+.tarjeta {
   width: 280px;
   height: 450px;
   border-radius: 10px;
@@ -96,36 +96,36 @@
   cursor: pointer;
 }
 
-.masVendido .foto {
+.tarjeta .foto {
   border-radius: 10px 10px 0px 0px;
   position: relative;
   overflow: hidden;
 }
 
-.masVendido .foto .oferta {
+.tarjeta .foto .oferta {
   position: absolute;
   bottom: 0;
   background-color: #ed6f17;
   padding: 5px;
 }
 
-.masVendido .foto .oferta p {
+.tarjeta .foto .oferta p {
   color: white;
   margin: 0;
 }
 
-.masVendido .contenido {
+.tarjeta .contenido {
   padding: 10px;
   margin-top: 30px;
   margin-bottom: 10px;
   height: 259px;
 }
 
-.masVendido .contenido .estrellas i {
+.tarjeta .contenido .estrellas i {
   color: #e7bc3d;
 }
 
-.masVendido:hover .backgroundEffect {
+.tarjeta:hover .backgroundEffect {
   border-radius: 10px;
   bottom: 0;
   height: 350px;
@@ -136,7 +136,7 @@
   animation: popBackground 0.3s ease-in;
 }
 
-.masVendido:hover .text-muted {
+.tarjeta:hover .text-muted {
   color: white !important;
 }
 
@@ -262,6 +262,28 @@
 
 .newsletter p {
   font-size: 20px;
+}
+
+.filtros input[type="checked"] {
+  width: 100px;
+}
+
+.filtros .btn {
+  background-color: #ed6f17;
+  color: white;
+}
+
+.filtros .btn:hover {
+  background-color: #ed6f17;
+  color: white;
+}
+
+.filtros .maxMin input {
+  width: 80px;
+}
+
+.filtros .anio input {
+  width: 80px;
 }
 
 .footer ul {
