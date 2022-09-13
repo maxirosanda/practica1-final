@@ -9,6 +9,17 @@
             color: $colorPrimario;
             font-size: 88px;
             font-weight: 800;
+            @media(max-width:992px){
+                font-size: 66px;            
+                } 
+            @media(max-width:768px){
+                font-size: 48px;               
+                }
+            @media(max-width:576px){
+                font-size: 30px;
+                 }
+         
+         }
         }
         .btn{
             font-size: 32px;
@@ -19,8 +30,17 @@
             position: relative;
             z-index: 1;
             overflow: hidden;
+            @media(max-width:992px){
+                font-size: 24px;   
+                } 
+
+            @media(max-width:576px){
+                font-size: 16px;
+                }
+         
+         }
         
-        }
+        
 
         .btn::after {
             content: "";
@@ -43,5 +63,7 @@
             transition: all 0.35s;
           }
    }
+
+
    
-}
+
