@@ -437,6 +437,12 @@
   border: 1px solid #697688;
 }
 
+@media (max-width: 576px) {
+  .navPaginacion ul li a {
+    padding: 8px 16px;
+  }
+}
+
 .navPaginacion ul li a:hover {
   background-color: #ed6f17;
   color: white;
