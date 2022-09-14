@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,cADU,CACV,EAAE,CAAA;EACE,UAAU,EAAE,IAAI;CAInB;;AANL,AAGQ,cAHM,CACV,EAAE,CAEE,EAAE,CAAA;EACE,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "../../src/scss/navPaginacion.scss"
+    ],
+    "names": [],
+    "file": "navPaginacion.css"
+}

@@ -216,7 +216,7 @@
   }
 }
 
-.lanzamiento .btn {
+.lanzamiento .contenido .btn {
   font-size: 32px;
   font-weight: 800;
   color: white;
@@ -228,18 +228,18 @@
 }
 
 @media (max-width: 992px) {
-  .lanzamiento .btn {
+  .lanzamiento .contenido .btn {
     font-size: 24px;
   }
 }
 
 @media (max-width: 576px) {
-  .lanzamiento .btn {
+  .lanzamiento .contenido .btn {
     font-size: 16px;
   }
 }
 
-.lanzamiento .btn::after {
+.lanzamiento .contenido .btn::after {
   content: "";
   background: #ed6f17;
   /* color de fondo hover */
@@ -253,7 +253,7 @@
   transition: all 0.35s;
 }
 
-.lanzamiento .btn:hover::after {
+.lanzamiento .contenido .btn:hover::after {
   left: 0;
   right: 0;
   top: 0;
@@ -400,6 +400,100 @@
   .contenedor-filtros .icono-filtro {
     display: block;
   }
+}
+
+.navPaginacion ul {
+  list-style: none;
+}
+
+.navPaginacion ul li a {
+  text-decoration: none;
+  color: #697688;
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  border: 1px solid #697688;
+}
+
+.navPaginacion ul li a:hover {
+  background-color: #ed6f17;
+  color: white;
+  transition: 0.25s;
+}
+
+.navPaginacion ul li a:hover i {
+  color: white;
+  transition: 0.25s;
+}
+
+.navPaginacion ul li .arrow-left {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.navPaginacion ul li .arrow-right {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.contactos {
+  background-image: url(../../assets/img/fondoContactos.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+
+@media (max-width: 576px) {
+  .contactos {
+    background-image: none;
+  }
+}
+
+.contactos form {
+  width: 500px;
+  height: 700px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
+
+@media (max-width: 576px) {
+  .contactos form {
+    box-shadow: none;
+    border-radius: 0;
+  }
+}
+
+.contactos form input, .contactos form textarea {
+  width: 80%;
+  outline: none;
+  margin: 20px;
+  border: 1px solid #697688;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.contactos form input:focus, .contactos form textarea:focus {
+  border: solid 2px #ed6f17;
+  transition: 0.25s;
+}
+
+.datos-contactos {
+  background-color: #ed6f17;
+  padding: 15px;
+}
+
+.datos-contactos p {
+  color: white;
+}
+
+.datos-contactos h4 {
+  color: white;
+}
+
+.datos-contactos i {
+  color: white;
+  font-size: 32px;
 }
 
 .footer ul {
