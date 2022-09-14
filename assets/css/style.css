@@ -426,6 +426,7 @@
 
 .navPaginacion ul {
   list-style: none;
+  padding: 0;
 }
 
 .navPaginacion ul li a {
