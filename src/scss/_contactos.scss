@@ -9,7 +9,7 @@
         }
     form{
         width: 500px;
-        height: 600px;
+        height: 700px;
         background-color: white;
         border-radius: 20px;
         box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
@@ -29,6 +29,32 @@
                 border: solid 2px $colorPrimario;
                 transition: 0.25s;
             }
+        }
+        .boton{
+            width: 80%;
+            outline: none;
+            margin: 20px;
+            border: 1px solid $colorTexto;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: $colorPrimario;
+            color: white;
+        } 
+        .boton-face{
+            @extend .boton;
+            background-color: #4367B3;
+            color: white;
+            text-transform: uppercase;
+            i{
+                color: white;
+                font-size: 20px;
+                margin-right: 10px
+            }
+        }
+
+        .boton-google{
+            @extend .boton-face;
+            background-color: #4385F5;
         }
 
     }
