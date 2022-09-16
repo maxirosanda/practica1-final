@@ -5,16 +5,18 @@
     height: 800px;
     @media(max-width:576px){
         background-image: none;
+        height: auto;
         }
     form{
         width: 500px;
-        height: 700px;
+        height: 600px;
         background-color: white;
         border-radius: 20px;
         box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
         @media(max-width:576px){
             box-shadow:none;
             border-radius: 0;
+            height: auto;
             }
         input,textarea{
             width: 80%;

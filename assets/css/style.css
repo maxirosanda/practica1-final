@@ -475,12 +475,13 @@
 @media (max-width: 576px) {
   .contactos {
     background-image: none;
+    height: auto;
   }
 }
 
 .contactos form {
   width: 500px;
-  height: 700px;
+  height: 600px;
   background-color: white;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
@@ -490,6 +491,7 @@
   .contactos form {
     box-shadow: none;
     border-radius: 0;
+    height: auto;
   }
 }
 
