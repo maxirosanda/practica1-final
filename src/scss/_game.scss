@@ -1,6 +1,21 @@
 .game{
-    i{
-        color: #e7bc3d;
-        font-size: 24px;
+    .foto{
+        img{
+            border-radius: 55px;
+        }
     }
+    .estrellas{
+        i{
+            color: #e7bc3d;
+            font-size: 24px;
+        }
+    }
+    .boton-compra{
+        @extend .boton;
+    }
+    .precio{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    
 }

@@ -30,16 +30,7 @@
                 transition: 0.25s;
             }
         }
-        .boton{
-            width: 80%;
-            outline: none;
-            margin: 20px;
-            border: 1px solid $colorTexto;
-            border-radius: 5px;
-            padding: 10px;
-            background-color: $colorPrimario;
-            color: white;
-        } 
+   
         .boton-face{
             @extend .boton;
             background-color: #4367B3;

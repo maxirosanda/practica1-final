@@ -1,3 +1,25 @@
+* {
+  color: #697688;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.boton, .contactos form .boton-face, .contactos form .boton-google, .game .boton-compra {
+  width: 80%;
+  outline: none;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ed6f17;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
 .navegador .navegadorIcono {
   font-size: 24px;
   padding: 10px;
@@ -513,17 +535,6 @@
   transition: 0.25s;
 }
 
-.contactos form .boton, .contactos form .boton-face, .contactos form .boton-google {
-  width: 80%;
-  outline: none;
-  margin: 20px;
-  border: 1px solid #697688;
-  border-radius: 5px;
-  padding: 10px;
-  background-color: #ed6f17;
-  color: white;
-}
-
 .contactos form .boton-face, .contactos form .boton-google {
   background-color: #4367B3;
   color: white;
@@ -558,9 +569,18 @@
   font-size: 32px;
 }
 
-.game i {
+.game .foto img {
+  border-radius: 55px;
+}
+
+.game .estrellas i {
   color: #e7bc3d;
   font-size: 24px;
+}
+
+.game .precio {
+  font-size: 32px;
+  font-weight: 600;
 }
 
 .footer ul {
@@ -641,12 +661,4 @@
 
 }
 */
-* {
-  color: #697688;
-}
-
-.container-fluid {
-  padding: 0;
-  margin: 0;
-}
 /*# sourceMappingURL=style.css.map */

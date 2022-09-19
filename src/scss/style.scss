@@ -1,4 +1,26 @@
 @import "variables";
+*{
+    color: $colorTexto;
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+.boton{
+    width: 80%;
+    outline: none;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: $colorPrimario;
+    color: white;
+    text-decoration: none;
+    text-align: center
+} 
+
 @import "navegador";
 @import "presentacion";
 @import "tarjetas";
@@ -10,13 +32,4 @@
 @import "game";
 @import "footer";
 @import "responsive";
-
-*{
-    color: $colorTexto;
-}
-
-.container-fluid{
-    padding: 0;
-    margin: 0;
-}
 
