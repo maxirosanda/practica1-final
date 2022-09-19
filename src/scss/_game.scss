@@ -12,10 +12,22 @@
     }
     .boton-compra{
         @extend .boton;
+        margin-bottom: 5px
+    }
+    .boton-carrito{
+        @extend .boton;
+        background-color: white;
+        color: $colorPrimario;
+        border: 1px solid $colorPrimario;
+        margin-top: 0;
     }
     .precio{
         font-size: 32px;
         font-weight: 600;
     }
     
+}
+
+.carousel{
+    background-color: #e7bc3d;
 }

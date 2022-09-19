@@ -11,35 +11,39 @@
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body class="container-fluid">
-    <header class="container-fluid mb-4">
-        <div class="container-fluid row m-0 justify-content-between align-items-center">
-            <div class="col-3 col-sm-5 ">
+    <header class="container-fluid">
+        <div class="container-fluid row m-0 justify-content-between  align-items-center">
+            <div class="col-6 col-sm-5 col-lg-7 order-lg-2 p-0  ">
             <div class="navegador ">
-                    <div class="navegadorIcono d-flex justify-content-start">
+                    <div class="navegadorIcono d-flex d-lg-none justify-content-start">
                         <i class="fa-solid fa-bars"></i>
                     </div>
-                    <nav class="navegadorMenu">
-                        <ul>
+                    <nav class="navegadorMenu d-lg-flex align-items-lg-center">
+                        <ul class="d-lg-flex m-0  mt-5 mt-lg-0 ">
                             <li> <a href="../index.html"> <i class="fa-solid fa-house"></i> Inicio </a></li>
-                            <li> <a href="#"><i class="fa-solid fa-address-card"></i> Games </a> </li>
+                            <li> <a href="./games.html"><i class="fa-solid fa-address-card"></i> Games </a> </li>
                             <li> <a href="./contactos.html">  <i class="fa-solid fa-shop"></i> Contactos </a></li>
                         </ul>
-                        <div class="contenedor-registro">
-                            <a href="./sesion.html">Iniciar Sesión</a>
-                            <a href="./registro.html">Registro</a>
+                        <div class="contenedor-registro d-lg-flex ms-lg-5">
+                            <a href="./sesion.html"> <i class="fa-solid fa-user d-none d-lg-inline"></i> Iniciar Sesión</a>
+                            <a href="./registro.html"><i class="fa-solid fa-address-card d-none d-lg-inline"></i>Registro</a>
                         </div>
+                    
                     </nav>
                 </div>
             </div>
-            <div class="col-4 col-sm-2 d-flex justify-content-center">
+            
+            <div class="col-4 col-sm-2 d-flex justify-content-center order-lg-1">
                 <img class="logo" src="../assets/img/gamerpc.png" alt="">
             </div>
-            <div class="buscador col-12 col-sm-5 d-flex justify-content-end">
+            
+            <div class="buscador col-12 col-sm-5 col-lg-3 pe-lg-1 d-flex justify-content-end order-lg-3">
                 <form action="" method="get">
                     <input  type="text" placeholder="Que juego Buscas?">
                     <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
             </div>
+            
         </div>
     </header>
     <main class=" container-fluid">
@@ -156,7 +160,7 @@
                         <div class="contenido  d-flex flex-column justify-content-between">
                             <p class="text-muted">Fortnite es un juego online de disparos en tercera persona. Tiene dos modos de juego: Salvar al mundo y Battle Royale</p>
                             <div class="d-flex justify-content-around align-items-center mt-3">
-                                <div class="text-uppercase text-muted ">ver más <i class="fa-solid fa-arrow-right text-muted"></i></div>
+                                <a href="#" class=" text-uppercase text-muted ">ver más <i class="fa-solid fa-arrow-right text-muted"></i></a>
                                 <div class="estrellas">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -176,7 +180,7 @@
                         <div class="contenido d-flex flex-column justify-content-between">
                             <p class="text-muted">Las llamadas batallas reales son un tipo de partidas en las que una gran cantidad de jugadores participan de manera individual o en grupo y compiten entre sí hasta que sólo uno de ellos queda en pie.</p>
                             <div class="d-flex justify-content-around align-items-center mt-3">
-                                <div class="text-uppercase text-muted ">ver más <i class="fa-solid fa-arrow-right text-muted"></i></div>
+                                <a href="#" class=" text-uppercase text-muted ">ver más <i class="fa-solid fa-arrow-right text-muted"></i></a>
                                 <div class="estrellas">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -196,7 +200,7 @@
                         <div class="contenido  d-flex flex-column justify-content-between">
                             <p class="text-muted">Kratos vuelve a ser padre. Como mentor y protector de Atreus, un hijo determinado a ganarse el respeto de su padre.</p>
                             <div class="d-flex justify-content-around align-items-center mt-3">
-                                <div class="text-uppercase text-muted ">ver más <i class="fa-solid fa-arrow-right text-muted"></i></div>
+                                <a href="#" class=" text-uppercase text-muted ">ver más <i class="fa-solid fa-arrow-right text-muted"></i></a>
                                 <div class="estrellas">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -216,7 +220,7 @@
                         <div class="contenido d-flex flex-column justify-content-between">
                             <p class="text-muted">Final Fantasy XIV: Endwalker es una nueva y gran expansión que hace que esta gran aventura crezca aún más. Puede que resulte algo abrumador, pero es un lugar que nunca fue tan rico, diverso, detallado y divertido de explorar.</p>
                             <div class="d-flex justify-content-around align-items-center mt-3">
-                                <div class="text-uppercase text-muted ">ver más <i class="fa-solid fa-arrow-right text-muted"></i></div>
+                                <a href="#" class=" text-uppercase text-muted ">ver más <i class="fa-solid fa-arrow-right text-muted"></i></a>
                                 <div class="estrellas">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -237,7 +241,7 @@
                         <div class="contenido  d-flex flex-column justify-content-between">
                             <p class="text-muted">¡Llegó la hora de volver al circuito! En esta nueva temporada de The Crew® 2, conocerán a Chris Forsberg Racing, el triple campeón del mundo de Drift, y a su equipo de Forsberg Racing. </p>
                             <div class="d-flex justify-content-around align-items-center mt-3">
-                                <div class="text-uppercase text-muted ">ver más <i class="fa-solid fa-arrow-right text-muted"></i></div>
+                                <a href="#" class=" text-uppercase text-muted ">ver más <i class="fa-solid fa-arrow-right text-muted"></i></a>
                                 <div class="estrellas">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -258,7 +262,7 @@
                         <div class="contenido  d-flex flex-column justify-content-between">
                             <p class="text-muted">Libra combates aéreos sobre el Pacífico, salta en paracaídas sobre Francia, defiende Stalingrado con la precisión de un francotirador y repele a las fuerzas enemigas que avanzan por el norte de África.</p>
                             <div class="d-flex justify-content-around align-items-center mt-3">
-                                <div class="text-uppercase text-muted ">ver más <i class="fa-solid fa-arrow-right text-muted"></i></div>
+                                <a href="#" class=" text-uppercase text-muted ">ver más <i class="fa-solid fa-arrow-right text-muted"></i></a>
                                 <div class="estrellas">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -279,7 +283,7 @@
                         <div class="contenido  d-flex flex-column justify-content-between">
                             <p class="text-muted">Lidera a tu escuadrón de elite en el contraataque para salvar a la Tierra de una tremenda invasión alienígena en este juego de disparos frenético de doble palanca.</p>
                             <div class="d-flex justify-content-around align-items-center mt-3">
-                                <div class="text-uppercase text-muted ">ver más <i class="fa-solid fa-arrow-right text-muted"></i></div>
+                                <a href="#" class=" text-uppercase text-muted ">ver más <i class="fa-solid fa-arrow-right text-muted"></i></a>
                                 <div class="estrellas">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -300,7 +304,7 @@
                         <div class="contenido  d-flex flex-column justify-content-between">
                             <p class="text-muted">Cyberpunk 2077 es un RPG de acción y aventura de mundo abierto ambientado en la megalópolis de Night City, donde juegas como un mercenario ciberpunk envuelto en una lucha por la supervivencia.</p>
                             <div class="d-flex justify-content-around align-items-center mt-3">
-                                <div class="text-uppercase text-muted ">ver más <i class="fa-solid fa-arrow-right text-muted"></i></div>
+                                <a href="#" class=" text-uppercase text-muted ">ver más <i class="fa-solid fa-arrow-right text-muted"></i></a>
                                 <div class="estrellas">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
