@@ -124,11 +124,11 @@
 }
 
 .buscador form i {
-  padding: 0;
+  font-size: 16px;
 }
 
 .buscador i {
-  padding: 5px;
+  font-size: 24px;
 }
 
 .presentacion {
