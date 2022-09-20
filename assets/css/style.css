@@ -668,8 +668,15 @@
 }
 
 @media (max-width: 992px) {
+  .resumen button {
+    color: #2D10DE;
+  }
+}
+
+@media (max-width: 992px) {
   .resumen {
     position: fixed;
+    background-color: #2D10DE;
     bottom: 0;
     z-index: 100;
     width: 100%;
