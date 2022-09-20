@@ -630,6 +630,16 @@
   }
 }
 
+.carrito-producto .producto-digital {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .carrito-producto .producto-digital {
+    font-size: 12px;
+  }
+}
+
 .carrito-producto .foto {
   width: 100px;
 }
@@ -640,6 +650,7 @@
 
 .carrito-producto button {
   border: 0;
+  background-color: transparent;
 }
 
 .footer ul {
