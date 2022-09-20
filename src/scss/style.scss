@@ -1,6 +1,8 @@
 @import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,100;1,200&display=swap');
 *{
     color: $colorTexto;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container-fluid,.row{
@@ -35,5 +37,4 @@
 @import "game";
 @import "carrito";
 @import "footer";
-@import "responsive";
 

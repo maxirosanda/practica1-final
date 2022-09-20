@@ -3,7 +3,7 @@
     h2{
         width: auto;
         text-align: center;
-        border-bottom: 3px solid #e7bc3d;
+        border-bottom: 3px solid $colorEstrellas;
         padding-bottom: 10px;
     }
 }
@@ -12,7 +12,7 @@
     width: 280px;
     height: 450px;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+    box-shadow: $sombra;
     position: relative;
     cursor: pointer;
     .foto{
@@ -39,12 +39,17 @@
         height: 259px;
         .estrellas{
             i{
-                color: #e7bc3d;
+                color: $colorEstrellas;
             }
             
         }
         a{
             text-decoration: none;
+            color: $colorTexto;
+        }
+
+        .text{
+            color: $colorTexto;
         }
     }
  
@@ -59,8 +64,8 @@
         animation: popBackground 0.3s ease-in
     }
 
-    &:hover .text-muted {
-        color: white !important;
+    &:hover .text {
+        color: white;
     }
 }
 

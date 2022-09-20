@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,100;1,200&display=swap");
 * {
-  color: #697688;
+  color: #4B4B4B;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container-fluid, .row {
@@ -7,7 +9,7 @@
   margin: 0;
 }
 
-.boton, .contactos form .boton-face, .contactos form .boton-google, .game .boton-compra, .game .boton-carrito, .resumen button {
+.boton, .formulario form .boton-face, .formulario form .boton-google, .game .boton-compra, .game .boton-carrito, .resumen button {
   width: 80%;
   outline: none;
   margin: 20px;
@@ -41,7 +43,7 @@
     background-color: white;
     transition: 0.2s;
     z-index: 200;
-    box-shadow: 2px 0px 9px 3px rgba(0, 0, 0, 0.61);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
   }
   .navegador .navegadorMenu:hover {
     left: 0;
@@ -54,24 +56,29 @@
 }
 
 .navegador .navegadorMenu ul li {
-  padding: 10px;
+  padding: 5px;
+  padding-left: 10px;
   font-size: 16px;
 }
 
 .navegador .navegadorMenu ul li a {
   text-decoration: none;
-  color: #697688;
+  color: #4B4B4B;
 }
 
-.navegador .navegadorMenu .contenedor-registro a {
+.navegador .navegadorMenu .contenedor-registro ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navegador .navegadorMenu .contenedor-registro ul li {
   padding: 5px;
   font-size: 16px;
-  text-decoration: none;
-  color: #697688;
 }
 
-.navegador .navegadorMenu .contenedor-registro i {
-  padding: 10px;
+.navegador .navegadorMenu .contenedor-registro ul li a {
+  text-decoration: none;
+  color: #4B4B4B;
 }
 
 @media (max-width: 992px) {
@@ -87,13 +94,17 @@
     border: 1px solid #ed6f17;
     border-radius: 5px;
     padding: 10px 20px;
-    margin: 10px auto;
     text-align: center;
   }
   .navegador .navegadorMenu .contenedor-registro a:nth-child(2) {
     background-color: white;
     color: #ed6f17;
   }
+}
+
+.navegador .navegadorMenu .activo {
+  color: #ed6f17;
+  font-weight: 700;
 }
 
 .logo {
@@ -103,7 +114,7 @@
 .buscador form input {
   width: 150px;
   border-radius: 5px 0 0 5px;
-  border: solid 1px #697688;
+  border: solid 1px #4B4B4B;
   border-right: 0;
   outline: none;
 }
@@ -115,7 +126,7 @@
 }
 
 .buscador form button {
-  border: solid 1px #697688;
+  border: solid 1px #4B4B4B;
   border-left: 0;
   border-radius: 0 5px 5px 0;
   background-color: white;
@@ -211,6 +222,11 @@
 
 .tarjeta .contenido a {
   text-decoration: none;
+  color: #4B4B4B;
+}
+
+.tarjeta .contenido .text {
+  color: #4B4B4B;
 }
 
 .tarjeta:hover .backgroundEffect {
@@ -224,8 +240,8 @@
   animation: popBackground 0.3s ease-in;
 }
 
-.tarjeta:hover .text-muted {
-  color: white !important;
+.tarjeta:hover .text {
+  color: white;
 }
 
 @keyframes popBackground {
@@ -394,7 +410,7 @@
 
 .filtros input[type="checkbox"] + label:before {
   content: "";
-  border: solid 2px #697688;
+  border: solid 2px #4B4B4B;
   border-radius: 3px;
   width: 20px;
   height: 20px;
@@ -445,7 +461,7 @@
     background-color: white;
     transition: 0.2s;
     z-index: 90;
-    box-shadow: 2px 0px 9px 3px rgba(0, 0, 0, 0.61);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
   }
   .filtros:hover {
     left: 0;
@@ -479,11 +495,11 @@
 
 .navPaginacion ul li a {
   text-decoration: none;
-  color: #697688;
+  color: #4B4B4B;
   display: block;
   padding: 10px 20px;
   text-align: center;
-  border: 1px solid #697688;
+  border: 1px solid #4B4B4B;
 }
 
 @media (max-width: 576px) {
@@ -513,7 +529,7 @@
   border-bottom-right-radius: 5px;
 }
 
-.contactos {
+.formulario {
   background-image: url(../../assets/img/fondoContactos.jpg);
   background-size: cover;
   width: 100%;
@@ -521,13 +537,13 @@
 }
 
 @media (max-width: 576px) {
-  .contactos {
+  .formulario {
     background-image: none;
     height: auto;
   }
 }
 
-.contactos form {
+.formulario form {
   width: 500px;
   height: 700px;
   background-color: white;
@@ -536,57 +552,57 @@
 }
 
 @media (max-width: 576px) {
-  .contactos form {
+  .formulario form {
     box-shadow: none;
     border-radius: 0;
     height: auto;
   }
 }
 
-.contactos form input, .contactos form textarea {
+.formulario form input, .formulario form textarea {
   width: 80%;
   outline: none;
   margin: 20px;
-  border: 1px solid #697688;
+  border: 1px solid #4B4B4B;
   border-radius: 5px;
   padding: 10px;
 }
 
-.contactos form input:focus, .contactos form textarea:focus {
+.formulario form input:focus, .formulario form textarea:focus {
   border: solid 2px #ed6f17;
   transition: 0.25s;
 }
 
-.contactos form .boton-face, .contactos form .boton-google {
-  background-color: #4367B3;
+.formulario form .boton-face, .formulario form .boton-google {
+  background-color: #3b5998;
   color: white;
   text-transform: uppercase;
 }
 
-.contactos form .boton-face i, .contactos form .boton-google i {
+.formulario form .boton-face i, .formulario form .boton-google i {
   color: white;
   font-size: 20px;
   margin-right: 10px;
 }
 
-.contactos form .boton-google {
+.formulario form .boton-google {
   background-color: #4385F5;
 }
 
-.datos-contactos {
+.datos-formulario {
   background-color: #ed6f17;
   padding: 15px;
 }
 
-.datos-contactos p {
+.datos-formulario p {
   color: white;
 }
 
-.datos-contactos h4 {
+.datos-formulario h4 {
   color: white;
 }
 
-.datos-contactos i {
+.datos-formulario i {
   color: white;
   font-size: 32px;
 }
@@ -616,15 +632,10 @@
   font-weight: 600;
 }
 
-.carousel {
-  background-color: #e7bc3d;
-}
-
 .carrito-producto {
   width: 600px;
   font-size: 20px;
-  background-color: #ed6f17;
-  border-radius: 10px;
+  border-bottom: 2px solid #ed6f17;
 }
 
 @media (max-width: 578px) {
@@ -669,14 +680,14 @@
 
 @media (max-width: 992px) {
   .resumen button {
-    color: #2D10DE;
+    color: #ed6f17;
+    font-weight: 700;
   }
 }
 
 @media (max-width: 1074px) {
   .resumen {
     position: fixed;
-    background-color: #2D10DE;
     bottom: 0;
     z-index: 100;
     width: 100%;
@@ -694,76 +705,10 @@
 
 .footer ul li a {
   text-decoration: none;
-  color: #697688;
+  color: #4B4B4B;
 }
 
 .footer .redes {
   font-size: 24px;
 }
-
-/*@media(max-width:768px){
-
-    .lanzamiento{
-
-        .contenido{
- 
-             h3{
- 
-                 font-size: 48px;
-                 
-             }
-            
-        }
-        
-     }
-}
-
-
-@media(max-width:576px){
-    .buscador {
-
-        input {
-            width: 250px;
-        }
-}
-*/
-/*.presentacion{
-    
-    video{
-        display: none;
-    }
-}
-
-.presentacion-texto {
-    position: static;
-    height: auto;
-    h1{
-        margin-top: 20px;
-        position: static;
-        color: $colorTexto;
-    }
-}
-
-.lanzamiento{
-
-    .contenido{
-
-         h3{
-
-             font-size: 30px;
-             
-         }
-
-         .btn{
-            font-size: 16px;
-        
-        }
-        
-    }
-    
- }
-
-
-}
-*/
 /*# sourceMappingURL=style.css.map */

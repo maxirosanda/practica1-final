@@ -1,4 +1,4 @@
-.contactos{
+.formulario{
     background-image: url(../../assets/img/fondoContactos.jpg);
     background-size: cover;
     width: 100%;
@@ -12,7 +12,7 @@
         height: 700px;
         background-color: white;
         border-radius: 20px;
-        box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+        box-shadow: $sombra;
         @media(max-width:576px){
             box-shadow:none;
             border-radius: 0;
@@ -33,7 +33,7 @@
    
         .boton-face{
             @extend .boton;
-            background-color: #4367B3;
+            background-color: $colorFacebook;
             color: white;
             text-transform: uppercase;
             i{
@@ -45,14 +45,14 @@
 
         .boton-google{
             @extend .boton-face;
-            background-color: #4385F5;
+            background-color: $colorGoogle;
         }
 
     }
 
 }
 
-.datos-contactos{
+.datos-formulario{
     background-color: $colorPrimario;
     padding: 15px;
      p{
