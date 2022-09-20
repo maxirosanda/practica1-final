@@ -33,11 +33,9 @@
     button{
         @extend .boton;
         background-color: white;
+        font-weight: 700;
         color: $colorPrimario;
-        @media(max-width:992px){
-            color: $colorPrimario;
-            font-weight: 700;
-        }
+        
     }
     @media(max-width:1074px){
         position: fixed;

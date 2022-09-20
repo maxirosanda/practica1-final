@@ -142,6 +142,23 @@
   font-size: 24px;
 }
 
+.buscador .carrito {
+  position: relative;
+}
+
+.buscador .carrito p {
+  position: absolute;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ed6f17;
+  bottom: 0;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
 .presentacion {
   position: relative;
 }
@@ -675,14 +692,8 @@
 
 .resumen button {
   background-color: white;
+  font-weight: 700;
   color: #ed6f17;
-}
-
-@media (max-width: 992px) {
-  .resumen button {
-    color: #ed6f17;
-    font-weight: 700;
-  }
 }
 
 @media (max-width: 1074px) {
