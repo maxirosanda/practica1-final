@@ -1,0 +1,19 @@
+.carrito{
+    &-producto{
+        .foto{
+            width: 150px;
+        }
+        .precio{
+            font-size: 20px;
+        }
+        i{
+            font-size: 24px;
+        }
+        button{
+            border: 0;
+        }
+        .cantidad{
+            font-size: 20px;
+        }
+    }
+}
