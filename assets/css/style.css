@@ -7,7 +7,7 @@
   margin: 0;
 }
 
-.boton, .contactos form .boton-face, .contactos form .boton-google, .game .boton-compra, .game .boton-carrito {
+.boton, .contactos form .boton-face, .contactos form .boton-google, .game .boton-compra, .game .boton-carrito, .resumen button {
   width: 80%;
   outline: none;
   margin: 20px;
@@ -621,12 +621,15 @@
 }
 
 .carrito-producto {
+  width: 500px;
   font-size: 20px;
-  border-bottom: 1px solid #697688;
+  background-color: #ed6f17;
+  border-radius: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 578px) {
   .carrito-producto {
+    width: 350px;
     font-size: 16px;
   }
 }
@@ -652,6 +655,26 @@
 .carrito-producto button {
   border: 0;
   background-color: transparent;
+}
+
+.resumen {
+  background-color: #ed6f17;
+  border-radius: 10px;
+}
+
+.resumen button {
+  background-color: white;
+  color: #ed6f17;
+}
+
+@media (max-width: 992px) {
+  .resumen {
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    width: 100%;
+    border-radius: 0;
+  }
 }
 
 .footer ul {
