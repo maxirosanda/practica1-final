@@ -684,6 +684,10 @@
   }
 }
 
+.atrasFixed {
+  height: 250px;
+}
+
 .footer ul {
   list-style: none;
 }
