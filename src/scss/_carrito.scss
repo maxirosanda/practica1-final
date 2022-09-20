@@ -1,6 +1,7 @@
 .carrito{
     &-producto{
         font-size: 20px;
+        border-bottom: 1px solid $colorTexto;
         @media(max-width:768px){
         font-size: 16px;
         }

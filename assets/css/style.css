@@ -622,6 +622,7 @@
 
 .carrito-producto {
   font-size: 20px;
+  border-bottom: 1px solid #697688;
 }
 
 @media (max-width: 768px) {
