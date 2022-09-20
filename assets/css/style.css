@@ -620,12 +620,18 @@
   background-color: #e7bc3d;
 }
 
-.carrito-producto .foto {
-  width: 150px;
+.carrito-producto {
+  font-size: 20px;
 }
 
-.carrito-producto .precio {
-  font-size: 20px;
+@media (max-width: 768px) {
+  .carrito-producto {
+    font-size: 16px;
+  }
+}
+
+.carrito-producto .foto {
+  width: 100px;
 }
 
 .carrito-producto i {
@@ -634,10 +640,6 @@
 
 .carrito-producto button {
   border: 0;
-}
-
-.carrito-producto .cantidad {
-  font-size: 20px;
 }
 
 .footer ul {
