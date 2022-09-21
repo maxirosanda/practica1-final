@@ -24,7 +24,7 @@
 
 @media (max-width: 992px) {
   .navegador .navegadorIcono {
-    font-size: 24px;
+    font-size: 30px;
     padding: 10px;
   }
   .navegador .navegadorIcono:hover + .navegadorMenu {
@@ -381,6 +381,11 @@
   transition: all 0.35s;
 }
 
+.lanzamiento-producto span {
+  color: #ed6f17;
+  font-weight: 700;
+}
+
 .newsletter .newsletter-input {
   position: relative;
   width: 90%;
@@ -551,6 +556,11 @@
 .navPaginacion ul li a:hover i {
   color: white;
   transition: 0.25s;
+}
+
+.navPaginacion ul li .activo {
+  background-color: #ed6f17;
+  color: white;
 }
 
 .navPaginacion ul li .arrow-left {
@@ -752,7 +762,8 @@
   color: #4B4B4B;
 }
 
-.footer .redes {
-  font-size: 24px;
+.footer .activo {
+  color: #ed6f17;
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */
