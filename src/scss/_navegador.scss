@@ -5,12 +5,12 @@
             .navegadorIcono{
                 font-size: 30px;
                 padding: 10px;
-                &:hover+.navegadorMenu{
+                &:hover +.navegadorMenu{
                     left: 0;
                 }
-               
             }
         }
+   
     .navegadorMenu{
        
         @media(max-width:992px){
@@ -90,7 +90,7 @@
     }
 
     }
-    
+
     }
 
 
@@ -153,3 +153,4 @@
         height: 120px;
     }
 }
+
