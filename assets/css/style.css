@@ -170,6 +170,12 @@
   height: 92px;
 }
 
+@media (max-width: 578px) {
+  .separador-navegador {
+    height: 120px;
+  }
+}
+
 .presentacion {
   position: relative;
 }

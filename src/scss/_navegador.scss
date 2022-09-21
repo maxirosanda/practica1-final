@@ -146,4 +146,7 @@
 }
 .separador-navegador{
     height: 92px;
+    @media(max-width:578px){
+        height: 120px;
+    }
 }
