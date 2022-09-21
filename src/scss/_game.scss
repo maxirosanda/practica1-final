@@ -17,12 +17,12 @@
             left: 0;
             width: 100%;
             background-color: white;
-            box-shadow: $sombra;
+            box-shadow: $sombraSuperior;
             z-index: 100;
         }
         .boton-compra{
             @extend .boton;
-            margin-bottom: 5px
+            margin-bottom: 5px;
         }
         .boton-carrito{
             @extend .boton;
@@ -30,6 +30,7 @@
             color: $colorPrimario;
             border: 1px solid $colorPrimario;
             margin-top: 0;
+            font-weight: 700px
         }
     }
     

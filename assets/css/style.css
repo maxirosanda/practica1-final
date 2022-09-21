@@ -20,6 +20,7 @@
   color: white;
   text-decoration: none;
   text-align: center;
+  font-weight: 700;
 }
 
 @media (max-width: 992px) {
@@ -164,6 +165,7 @@
   z-index: 300;
   width: 100%;
   background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
 
 .separador-navegador {
@@ -667,7 +669,7 @@
     left: 0;
     width: 100%;
     background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px -3px 8px;
     z-index: 100;
   }
 }
@@ -681,6 +683,7 @@
   color: #ed6f17;
   border: 1px solid #ed6f17;
   margin-top: 0;
+  font-weight: 700px;
 }
 
 .game .precio {
@@ -735,7 +738,6 @@
 
 .resumen button {
   background-color: white;
-  font-weight: 700;
   color: #ed6f17;
 }
 
@@ -746,6 +748,7 @@
     z-index: 100;
     width: 100%;
     border-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px -3px 8px;
   }
 }
 

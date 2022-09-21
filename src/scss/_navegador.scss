@@ -1,5 +1,6 @@
 
 .navegador{
+    
     @media(max-width:992px){
     
             .navegadorIcono{
@@ -146,6 +147,7 @@
     z-index: 300;
     width: 100%;
     background-color: white;
+    box-shadow: $sombra;
 }
 .separador-navegador{
     height: 92px;
