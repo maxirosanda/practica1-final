@@ -9,7 +9,7 @@
   margin: 0;
 }
 
-.boton, .formulario form .boton-face, .formulario form .boton-google, .game .boton-compra, .game .boton-carrito, .resumen button {
+.boton, .formulario form .boton-face, .formulario form .boton-google, .game .botones .boton-compra, .game .botones .boton-carrito, .resumen button {
   width: 80%;
   outline: none;
   margin: 20px;
@@ -650,11 +650,23 @@
   font-size: 24px;
 }
 
-.game .boton-compra {
+@media (max-width: 768px) {
+  .game .botones {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+    z-index: 100;
+  }
+}
+
+.game .botones .boton-compra {
   margin-bottom: 5px;
 }
 
-.game .boton-carrito {
+.game .botones .boton-carrito {
   background-color: white;
   color: #ed6f17;
   border: 1px solid #ed6f17;
@@ -664,6 +676,10 @@
 .game .precio {
   font-size: 32px;
   font-weight: 600;
+}
+
+.separador-botones {
+  height: 135px;
 }
 
 .carrito-producto {
