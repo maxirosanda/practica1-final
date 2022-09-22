@@ -9,7 +9,7 @@
   margin: 0;
 }
 
-.boton, .formulario form .boton-face, .formulario form .boton-google, .game .botones .boton-compra, .game .botones .boton-carrito, .resumen button {
+.boton, .filtros .btn-filtro, .formulario form .boton-face, .formulario form .boton-google, .game .botones .boton-compra, .game .botones .boton-carrito, .resumen button {
   width: 80%;
   outline: none;
   margin: 20px;
@@ -472,12 +472,12 @@
   font-size: 14px;
 }
 
-.filtros .btn {
+.filtros .btn-filtro {
   background-color: #ed6f17;
   color: white;
 }
 
-.filtros .btn:hover {
+.filtros .btn-filtro:hover {
   background-color: #ed6f17;
   color: white;
 }

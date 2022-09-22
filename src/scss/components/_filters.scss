@@ -29,7 +29,8 @@
         font-family: FontAwesome;
         font-size: 14px;
     }
-    .btn{
+    .btn-filtro{
+            @extend .boton;
             background-color: $colorPrimario;
             color: white;
             &:hover{

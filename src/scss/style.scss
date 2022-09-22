@@ -1,41 +1,16 @@
-@import "variables";
+@import "./components/variables";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,100;1,200&display=swap');
-*{
-    color: $colorTexto;
-    font-family: 'Poppins', sans-serif;
-}
-
-.container-fluid,.row{
-    padding: 0;
-    margin: 0;
-}
-
-.boton{
-    width: 80%;
-    outline: none;
-    margin: 20px;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: $colorPrimario;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    font-weight: 700
-} 
-
-
-
-
-@import "navegador";
-@import "presentacion";
-@import "tarjetas";
-@import "lanzamiento";
-@import "newsletter";
-@import "filtros";
-@import "navPaginacion";
-@import "contactos";
-@import "game";
-@import "carrito";
-@import "footer";
+@import "./components/reset";
+@import "./components/btns";
+@import "./components/navbar";
+@import "./components/presentation";
+@import "./components/card";
+@import "./components/premiere";
+@import "./components/newsletter";
+@import "./components/filters";
+@import "./components/pagination";
+@import "./components/form";
+@import "./components/game";
+@import "./components/cart";
+@import "./components/footer";
 
