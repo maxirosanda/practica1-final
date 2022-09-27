@@ -37,7 +37,7 @@
   .navegador .navegadorMenu {
     position: fixed;
     top: 0;
-    left: -200vh;
+    left: -300vh;
     height: 100vh;
     min-width: 250px;
     width: 20%;
