@@ -37,7 +37,7 @@
   .navegador .navegadorMenu {
     position: fixed;
     top: 0;
-    left: -300vh;
+    left: -200vh;
     height: 100vh;
     min-width: 250px;
     width: 20%;
@@ -48,6 +48,12 @@
   }
   .navegador .navegadorMenu:hover {
     left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .navegador .navegadorMenu {
+    box-shadow: 50px 5px 0px 600px rgba(0, 0, 0, 0.7);
   }
 }
 
