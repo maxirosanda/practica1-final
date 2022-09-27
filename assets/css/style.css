@@ -51,9 +51,9 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 578px) {
   .navegador .navegadorMenu {
-    box-shadow: 50px 5px 0px 600px rgba(0, 0, 0, 0.7);
+    box-shadow: 50px 5px 0px 300px rgba(0, 0, 0, 0.7);
   }
 }
 
