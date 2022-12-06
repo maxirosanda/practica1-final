@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,100;1,200&display=swap");
 * {
   color: #4B4B4B;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .container-fluid, .row {
@@ -9,14 +9,14 @@
   margin: 0;
 }
 
-.boton, .filtros .btn-filtro, .formulario form .boton-face, .formulario form .boton-google, .game .botones .boton-compra, .game .botones .boton-carrito, .resumen button {
+.boton, .resumen button, .game .botones .boton-carrito, .game .botones .boton-compra, .formulario form .boton-face, .formulario form .boton-google, .filtros .btn-filtro {
   width: 80%;
   outline: none;
   margin: 20px;
   border: none;
   border-radius: 5px;
   padding: 10px;
-  background-color: #ed6f17;
+  background-color: rgb(237, 111, 23);
   color: white;
   text-decoration: none;
   text-align: center;
@@ -32,85 +32,75 @@
     left: 0;
   }
 }
-
 @media (max-width: 992px) {
   .navegador .navegadorMenu {
     position: fixed;
     top: 0;
-    left: -200vh;
+    left: -210vw;
     height: 100vh;
     min-width: 250px;
     width: 20%;
     background-color: white;
     transition: 0.2s;
     z-index: 200;
-    box-shadow: 50px 5px 0px 1000px rgba(0, 0, 0, 0.7);
+    box-shadow: 50px 5px 0px 100vw rgba(0, 0, 0, 0.7);
   }
   .navegador .navegadorMenu:hover {
     left: 0;
   }
 }
-
-@media (max-width: 578px) {
+@media (max-width: 579px) {
   .navegador .navegadorMenu {
-    box-shadow: 50px 5px 0px 300px rgba(0, 0, 0, 0.7);
+    box-shadow: 50px 5px 0px 100vw rgba(0, 0, 0, 0.7);
   }
 }
-
 .navegador .navegadorMenu ul {
   list-style: none;
   padding: 0;
 }
-
 .navegador .navegadorMenu ul li {
   padding: 5px;
   padding-left: 10px;
   font-size: 16px;
 }
-
 .navegador .navegadorMenu ul li a {
   text-decoration: none;
   color: #4B4B4B;
 }
-
 .navegador .navegadorMenu .contenedor-registro ul {
   list-style: none;
   padding: 0;
 }
-
 .navegador .navegadorMenu .contenedor-registro ul li {
   padding: 5px;
   font-size: 16px;
 }
-
 .navegador .navegadorMenu .contenedor-registro ul li a {
   text-decoration: none;
   color: #4B4B4B;
 }
-
 @media (max-width: 992px) {
   .navegador .navegadorMenu .contenedor-registro {
     margin-top: 20px;
   }
   .navegador .navegadorMenu .contenedor-registro a {
     display: block;
-    background-color: #ed6f17;
+    background-color: rgb(237, 111, 23);
     width: 200px;
     color: white;
     text-decoration: none;
-    border: 1px solid #ed6f17;
+    border: 1px solid rgb(237, 111, 23);
     border-radius: 5px;
     padding: 10px 20px;
     text-align: center;
   }
   .navegador .navegadorMenu .contenedor-registro a:nth-child(2) {
     background-color: white;
-    color: #ed6f17;
+    color: rgb(237, 111, 23);
   }
 }
-
 .navegador .navegadorMenu .activo {
-  color: #ed6f17;
+  color: rgb(237, 111, 23);
   font-weight: 700;
 }
 
@@ -125,13 +115,11 @@
   border-right: 0;
   outline: none;
 }
-
 @media (max-width: 576px) {
   .buscador form input {
     width: 250px;
   }
 }
-
 .buscador form button {
   border: solid 1px #4B4B4B;
   border-left: 0;
@@ -140,26 +128,22 @@
   position: relative;
   left: -5px;
 }
-
 .buscador form i {
   font-size: 16px;
 }
-
 .buscador i {
   font-size: 24px;
 }
-
 .buscador .carrito {
   position: relative;
 }
-
 .buscador .carrito p {
   position: absolute;
   margin: 0;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: #ed6f17;
+  background-color: rgb(237, 111, 23);
   bottom: 0;
   color: white;
   font-size: 14px;
@@ -177,7 +161,6 @@
 .separador-navegador {
   height: 92px;
 }
-
 @media (max-width: 578px) {
   .separador-navegador {
     height: 110px;
@@ -194,19 +177,16 @@
   width: 100%;
   height: 100%;
 }
-
 .presentacion-texto h1 {
   color: white;
-  font-size: 88px;
+  font-size: 66px;
   text-align: center;
 }
-
 @media (max-width: 1200px) {
   .presentacion-texto h1 {
     font-size: 66px;
   }
 }
-
 @media (max-width: 768px) {
   .presentacion-texto h1 {
     font-size: 44px;
@@ -216,7 +196,6 @@
 .tarjetas {
   margin-top: 30px;
 }
-
 .tarjetas h2 {
   width: auto;
   text-align: center;
@@ -232,45 +211,37 @@
   position: relative;
   cursor: pointer;
 }
-
 .tarjeta .foto {
   border-radius: 10px 10px 0px 0px;
   position: relative;
   overflow: hidden;
 }
-
 .tarjeta .foto .oferta {
   position: absolute;
   bottom: 0;
-  background-color: #ed6f17;
+  background-color: rgb(237, 111, 23);
   padding: 5px;
 }
-
 .tarjeta .foto .oferta p {
   color: white;
   margin: 0;
 }
-
 .tarjeta .contenido {
   padding: 10px;
   margin-top: 30px;
   margin-bottom: 10px;
   height: 259px;
 }
-
 .tarjeta .contenido .estrellas i {
   color: #e7bc3d;
 }
-
 .tarjeta .contenido a {
   text-decoration: none;
   color: #4B4B4B;
 }
-
 .tarjeta .contenido .text {
   color: #4B4B4B;
 }
-
 .tarjeta:hover .backgroundEffect {
   border-radius: 10px;
   bottom: 0;
@@ -281,7 +252,6 @@
   background: #2D10DE;
   animation: popBackground 0.3s ease-in;
 }
-
 .tarjeta:hover .text {
   color: white;
 }
@@ -308,42 +278,35 @@
     border-top-right-radius: 50%;
   }
 }
-
 .lanzamiento {
   position: relative;
 }
-
 .lanzamiento .contenido {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
 }
-
 .lanzamiento .contenido h3 {
-  color: #ed6f17;
+  color: rgb(237, 111, 23);
   font-size: 88px;
   font-weight: 800;
 }
-
 @media (max-width: 992px) {
   .lanzamiento .contenido h3 {
     font-size: 66px;
   }
 }
-
 @media (max-width: 768px) {
   .lanzamiento .contenido h3 {
     font-size: 48px;
   }
 }
-
 @media (max-width: 576px) {
   .lanzamiento .contenido h3 {
     font-size: 30px;
   }
 }
-
 .lanzamiento .contenido .btn {
   text-decoration: none;
   font-size: 32px;
@@ -356,23 +319,19 @@
   z-index: 1;
   overflow: hidden;
 }
-
 @media (max-width: 992px) {
   .lanzamiento .contenido .btn {
     font-size: 24px;
   }
 }
-
 @media (max-width: 576px) {
   .lanzamiento .contenido .btn {
     font-size: 16px;
   }
 }
-
 .lanzamiento .contenido .btn::after {
   content: "";
-  background: #ed6f17;
-  /* color de fondo hover */
+  background: rgb(237, 111, 23); /* color de fondo hover */
   position: absolute;
   z-index: -1;
   display: block;
@@ -382,7 +341,6 @@
   right: 100%;
   transition: all 0.35s;
 }
-
 .lanzamiento .contenido .btn:hover::after {
   left: 0;
   right: 0;
@@ -392,7 +350,7 @@
 }
 
 .lanzamiento-producto span {
-  color: #ed6f17;
+  color: rgb(237, 111, 23);
   font-weight: 700;
 }
 
@@ -402,18 +360,16 @@
   height: 70px;
   margin: auto;
 }
-
 .newsletter input {
   position: absolute;
   width: 100%;
   right: 0px;
-  border: solid 2px #ed6f17;
+  border: solid 2px rgb(237, 111, 23);
   border-radius: 10px;
   outline: none;
   font-size: 16px;
   padding: 10px;
 }
-
 .newsletter button {
   position: absolute;
   right: 15px;
@@ -422,42 +378,35 @@
   width: 40px;
   font-size: 16px;
   border-radius: 50%;
-  border: solid 2px #ed6f17;
+  border: solid 2px rgb(237, 111, 23);
   padding: 5px;
   transition: 0.35s;
 }
-
 .newsletter button:hover {
-  background-color: #ed6f17;
+  background-color: rgb(237, 111, 23);
 }
-
 .newsletter button:hover i {
   color: white;
 }
-
 .newsletter button i {
-  color: #ed6f17;
+  color: rgb(237, 111, 23);
 }
-
 .newsletter h2 {
   font-size: 48px;
 }
-
 .newsletter p {
   font-size: 20px;
 }
 
-.filtros input[type="checkbox"] {
+.filtros input[type=checkbox] {
   display: none;
 }
-
 .filtros label {
   padding-left: 25px;
   position: relative;
   margin-bottom: 5px;
 }
-
-.filtros input[type="checkbox"] + label:before {
+.filtros input[type=checkbox] + label:before {
   content: "";
   border: solid 2px #4B4B4B;
   border-radius: 3px;
@@ -467,41 +416,34 @@
   left: 0;
   top: 2px;
 }
-
-.filtros input[type="checkbox"]:checked + label {
-  color: #ed6f17;
+.filtros input[type=checkbox]:checked + label {
+  color: rgb(237, 111, 23);
 }
-
-.filtros input[type="checkbox"]:checked + label:before {
+.filtros input[type=checkbox]:checked + label:before {
   content: "\f00c";
-  border-color: #ed6f17;
-  color: #ed6f17;
+  border-color: rgb(237, 111, 23);
+  color: rgb(237, 111, 23);
   font-family: FontAwesome;
   font-size: 14px;
 }
-
 .filtros .btn-filtro {
-  background-color: #ed6f17;
+  background-color: rgb(237, 111, 23);
   color: white;
 }
-
 .filtros .btn-filtro:hover {
-  background-color: #ed6f17;
+  background-color: rgb(237, 111, 23);
   color: white;
 }
-
 .filtros .maxMin input {
   width: 80px;
 }
-
 .filtros .anio input {
   width: 80px;
 }
-
 @media (max-width: 992px) {
   .filtros {
     top: 0;
-    left: -100vh;
+    left: -210vw;
     padding: 50px;
     position: absolute;
     height: 900px;
@@ -510,7 +452,7 @@
     background-color: white;
     transition: 0.2s;
     z-index: 90;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+    box-shadow: 50px 5px 0px 100vw rgba(0, 0, 0, 0.7);
   }
   .filtros:hover {
     left: 0;
@@ -520,17 +462,14 @@
 .contenedor-filtros {
   position: relative;
 }
-
 .contenedor-filtros .icono-filtro {
   display: none;
   font-size: 36px;
   padding: 20px;
 }
-
 .contenedor-filtros .icono-filtro:hover + .filtros {
   left: 0;
 }
-
 @media (max-width: 992px) {
   .contenedor-filtros .icono-filtro {
     display: block;
@@ -541,7 +480,6 @@
   list-style: none;
   padding: 0;
 }
-
 .navPaginacion ul li a {
   text-decoration: none;
   color: #4B4B4B;
@@ -550,34 +488,28 @@
   text-align: center;
   border: 1px solid #4B4B4B;
 }
-
 @media (max-width: 576px) {
   .navPaginacion ul li a {
     padding: 8px 16px;
   }
 }
-
 .navPaginacion ul li a:hover {
-  background-color: #ed6f17;
+  background-color: rgb(237, 111, 23);
   color: white;
   transition: 0.25s;
 }
-
 .navPaginacion ul li a:hover i {
   color: white;
   transition: 0.25s;
 }
-
 .navPaginacion ul li .activo {
-  background-color: #ed6f17;
+  background-color: rgb(237, 111, 23);
   color: white;
 }
-
 .navPaginacion ul li .arrow-left {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-
 .navPaginacion ul li .arrow-right {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -589,14 +521,12 @@
   width: 100%;
   height: 800px;
 }
-
 @media (max-width: 576px) {
   .formulario {
     background-image: none;
     height: auto;
   }
 }
-
 .formulario form {
   width: 500px;
   height: 700px;
@@ -604,7 +534,6 @@
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
-
 @media (max-width: 576px) {
   .formulario form {
     box-shadow: none;
@@ -612,7 +541,6 @@
     height: auto;
   }
 }
-
 .formulario form input, .formulario form textarea {
   width: 80%;
   outline: none;
@@ -621,41 +549,34 @@
   border-radius: 5px;
   padding: 10px;
 }
-
 .formulario form input:focus, .formulario form textarea:focus {
-  border: solid 2px #ed6f17;
+  border: solid 2px rgb(237, 111, 23);
   transition: 0.25s;
 }
-
 .formulario form .boton-face, .formulario form .boton-google {
   background-color: #3b5998;
   color: white;
   text-transform: uppercase;
 }
-
 .formulario form .boton-face i, .formulario form .boton-google i {
   color: white;
   font-size: 20px;
   margin-right: 10px;
 }
-
 .formulario form .boton-google {
   background-color: #4385F5;
 }
 
 .datos-formulario {
-  background-color: #ed6f17;
+  background-color: rgb(237, 111, 23);
   padding: 15px;
 }
-
 .datos-formulario p {
   color: white;
 }
-
 .datos-formulario h4 {
   color: white;
 }
-
 .datos-formulario i {
   color: white;
   font-size: 32px;
@@ -664,12 +585,10 @@
 .game .foto img {
   border-radius: 55px;
 }
-
 .game .estrellas i {
   color: #e7bc3d;
   font-size: 24px;
 }
-
 @media (max-width: 768px) {
   .game .botones {
     position: fixed;
@@ -681,19 +600,16 @@
     z-index: 100;
   }
 }
-
 .game .botones .boton-compra {
   margin-bottom: 5px;
 }
-
 .game .botones .boton-carrito {
   background-color: white;
-  color: #ed6f17;
-  border: 1px solid #ed6f17;
+  color: rgb(237, 111, 23);
+  border: 1px solid rgb(237, 111, 23);
   margin-top: 0;
   font-weight: 700px;
 }
-
 .game .precio {
   font-size: 32px;
   font-weight: 600;
@@ -706,49 +622,41 @@
 .carrito-producto {
   width: 600px;
   font-size: 20px;
-  border-bottom: 2px solid #ed6f17;
+  border-bottom: 2px solid rgb(237, 111, 23);
 }
-
 @media (max-width: 578px) {
   .carrito-producto {
     width: 350px;
     font-size: 16px;
   }
 }
-
 .carrito-producto .producto-digital {
   font-size: 16px;
 }
-
 @media (max-width: 768px) {
   .carrito-producto .producto-digital {
     font-size: 12px;
   }
 }
-
 .carrito-producto .foto {
   width: 100px;
 }
-
 .carrito-producto i {
   font-size: 24px;
 }
-
 .carrito-producto button {
   border: 0;
   background-color: transparent;
 }
 
 .resumen {
-  background-color: #ed6f17;
+  background-color: rgb(237, 111, 23);
   border-radius: 10px;
 }
-
 .resumen button {
   background-color: white;
-  color: #ed6f17;
+  color: rgb(237, 111, 23);
 }
-
 @media (max-width: 1074px) {
   .resumen {
     position: fixed;
@@ -767,14 +675,40 @@
 .footer ul {
   list-style: none;
 }
-
 .footer ul li a {
   text-decoration: none;
   color: #4B4B4B;
 }
-
 .footer .activo {
-  color: #ed6f17;
+  color: rgb(237, 111, 23);
   font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
+
+.loading{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.507);
+  position: fixed;
+  z-index: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-/*# sourceMappingURL=style.css.map */
+
+.loading i {
+  font-size: 64px;
+  object-fit: cover;
+  color: white;
+  animation-name: rotar;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotar {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
