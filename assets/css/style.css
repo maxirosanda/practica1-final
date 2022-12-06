@@ -4,11 +4,39 @@
   font-family: "Poppins", sans-serif;
 }
 
-.container-fluid, .row {
-  padding: 0;
+.container-fluid {
   margin: 0;
+  padding: 0;
 }
 
+.loading {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.507);
+  position: fixed;
+  z-index: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading i {
+  font-size: 64px;
+  object-fit: cover;
+  color: white;
+  animation-name: rotar;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .boton, .resumen button, .game .botones .boton-carrito, .game .botones .boton-compra, .formulario form .boton-face, .formulario form .boton-google, .filtros .btn-filtro {
   width: 80%;
   outline: none;
@@ -215,6 +243,11 @@
   border-radius: 10px 10px 0px 0px;
   position: relative;
   overflow: hidden;
+}
+.tarjeta .foto img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
 }
 .tarjeta .foto .oferta {
   position: absolute;
@@ -682,33 +715,4 @@
 .footer .activo {
   color: rgb(237, 111, 23);
   font-weight: 700;
-}/*# sourceMappingURL=style.css.map */
-
-.loading{
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.507);
-  position: fixed;
-  z-index: 500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.loading i {
-  font-size: 64px;
-  object-fit: cover;
-  color: white;
-  animation-name: rotar;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes rotar {
-  0%{
-    transform: rotate(0deg);
-  }
-  100%{
-    transform: rotate(360deg);
-  }
 }

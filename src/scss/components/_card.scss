@@ -19,6 +19,11 @@
         border-radius: 10px 10px 0px 0px;
         position: relative;
         overflow: hidden;
+        img{
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
         .oferta{
             position: absolute;
             bottom: 0;
