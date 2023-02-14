@@ -1,0 +1,21 @@
+{
+  "name": "practica1-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxirosanda/practica1-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxirosanda/practica1-final/issues"
+  },
+  "homepage": "https://github.com/maxirosanda/practica1-final#readme"
+}
